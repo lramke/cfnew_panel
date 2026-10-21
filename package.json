@@ -1,0 +1,19 @@
+{
+  "name": "cfnew-panel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node test/run-tests.mjs",
+    "build:vercel": "node src/tools/build-vercel.mjs",
+    "build:pages": "node src/tools/build-pages.mjs"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1"
+  }
+}
